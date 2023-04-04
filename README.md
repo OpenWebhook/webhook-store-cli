@@ -55,3 +55,11 @@ npx webhook-store-cli@latest --protocol https --hostname dev.localenv --port 900
 | --port         | 9000                      |      9000 |
 | --protocol     | https                     |      http |
 | --hostname     | dev.localenv              | localhost |
+
+## Deploy
+
+Bump version
+
+```
+npm publish --access public
+```
